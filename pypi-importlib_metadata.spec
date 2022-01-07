@@ -4,7 +4,7 @@
 #
 Name     : pypi-importlib_metadata
 Version  : 4.10.0
-Release  : 77
+Release  : 78
 URL      : https://files.pythonhosted.org/packages/50/05/fef7fbb7e781e0632ebba4e6e37bcc88b9615e76338850dc31435091ddc0/importlib_metadata-4.10.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/50/05/fef7fbb7e781e0632ebba4e6e37bcc88b9615e76338850dc31435091ddc0/importlib_metadata-4.10.0.tar.gz
 Summary  : Read metadata from Python packages
@@ -15,9 +15,6 @@ Requires: pypi-importlib_metadata-python = %{version}-%{release}
 Requires: pypi-importlib_metadata-python3 = %{version}-%{release}
 Requires: zipp
 BuildRequires : buildreq-distutils3
-Provides: importlib_metadata
-Provides: importlib_metadata-python
-Provides: importlib_metadata-python3
 BuildRequires : pluggy
 BuildRequires : py-python
 BuildRequires : pypi(setuptools)
@@ -26,7 +23,6 @@ BuildRequires : pypi(trampolim)
 BuildRequires : pypi(typing_extensions)
 BuildRequires : pypi(zipp)
 BuildRequires : pytest
-BuildRequires : setuptools_scm
 BuildRequires : tox
 BuildRequires : virtualenv
 Patch1: deps.patch
@@ -74,7 +70,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641444745
+export SOURCE_DATE_EPOCH=1641514120
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$FFLAGS -fno-lto "
