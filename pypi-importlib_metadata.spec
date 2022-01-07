@@ -13,7 +13,7 @@ License  : Apache-2.0
 Requires: pypi-importlib_metadata-license = %{version}-%{release}
 Requires: pypi-importlib_metadata-python = %{version}-%{release}
 Requires: pypi-importlib_metadata-python3 = %{version}-%{release}
-Requires: zipp
+Requires: pypi(zipp)
 BuildRequires : buildreq-distutils3
 BuildRequires : pluggy
 BuildRequires : py-python
