@@ -4,7 +4,7 @@
 #
 Name     : pypi-importlib_metadata
 Version  : 5.0.0
-Release  : 95
+Release  : 96
 URL      : https://files.pythonhosted.org/packages/7e/ec/97f2ce958b62961fddd7258e0ceede844953606ad09b672fa03b86c453d3/importlib_metadata-5.0.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/7e/ec/97f2ce958b62961fddd7258e0ceede844953606ad09b672fa03b86c453d3/importlib_metadata-5.0.0.tar.gz
 Summary  : Read metadata from Python packages
