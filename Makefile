@@ -1,5 +1,5 @@
 PKG_NAME := pypi-importlib_metadata
-URL = https://files.pythonhosted.org/packages/e2/d8/3d431bade4598ad9e33be9da41d15e6607b878008e922d122659ab01b077/importlib_metadata-6.1.0.tar.gz
+URL = https://files.pythonhosted.org/packages/3f/24/69442c79335591a2dfe3c9b796ae79348c49bc50c8f2886063d1b0e1e5f3/importlib_metadata-6.2.0.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
