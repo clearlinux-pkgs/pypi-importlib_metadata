@@ -6,10 +6,10 @@
 # autospec commit: c1050fe
 #
 Name     : pypi-importlib_metadata
-Version  : 7.0.0
-Release  : 112
-URL      : https://files.pythonhosted.org/packages/db/5a/392426ddb5edfebfcb232ab7a47e4a827aa1d5b5267a5c20c448615feaa9/importlib_metadata-7.0.0.tar.gz
-Source0  : https://files.pythonhosted.org/packages/db/5a/392426ddb5edfebfcb232ab7a47e4a827aa1d5b5267a5c20c448615feaa9/importlib_metadata-7.0.0.tar.gz
+Version  : 7.0.1
+Release  : 113
+URL      : https://files.pythonhosted.org/packages/90/b4/206081fca69171b4dc1939e77b378a7b87021b0f43ce07439d49d8ac5c84/importlib_metadata-7.0.1.tar.gz
+Source0  : https://files.pythonhosted.org/packages/90/b4/206081fca69171b4dc1939e77b378a7b87021b0f43ce07439d49d8ac5c84/importlib_metadata-7.0.1.tar.gz
 Summary  : Read metadata from Python packages
 Group    : Development/Tools
 License  : Apache-2.0
@@ -63,11 +63,11 @@ python3 components for the pypi-importlib_metadata package.
 
 
 %prep
-%setup -q -n importlib_metadata-7.0.0
-cd %{_builddir}/importlib_metadata-7.0.0
+%setup -q -n importlib_metadata-7.0.1
+cd %{_builddir}/importlib_metadata-7.0.1
 %patch -P 1 -p1
 pushd ..
-cp -a importlib_metadata-7.0.0 buildavx2
+cp -a importlib_metadata-7.0.1 buildavx2
 popd
 
 %build
@@ -75,7 +75,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1702068353
+export SOURCE_DATE_EPOCH=1703281473
 export GCC_IGNORE_WERROR=1
 CLEAR_INTERMEDIATE_CFLAGS="$CLEAR_INTERMEDIATE_CFLAGS -fdebug-types-section -femit-struct-debug-baseonly -fno-lto -g1 -gno-column-info -gno-variable-location-views -gz=zstd "
 CLEAR_INTERMEDIATE_FCFLAGS="$CLEAR_INTERMEDIATE_FFLAGS -fdebug-types-section -femit-struct-debug-baseonly -fno-lto -g1 -gno-column-info -gno-variable-location-views -gz=zstd "
